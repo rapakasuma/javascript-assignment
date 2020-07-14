@@ -1,0 +1,19 @@
+<html>
+    <title>
+        current date
+    </title>
+    <head>
+      <center> <h2>Current date</h2></center> 
+        <body><h4>
+            <script>
+                var date=new Date();
+                var d=date.getDate();
+                var m=date.getMonth();
+                var year=date.getFullYear();
+                d=d<10?'0'+d:d;
+                m=m<10?'0'+m:m;
+                document.write(d+"-"+m+"-"+year+"  ,  "+d+"/"+m+"/"+year);
+               </script></h4>
+        </body>
+    </head>
+</html>
