@@ -1,0 +1,22 @@
+<html>
+    <title>
+        OS name and version
+    </title>
+    <head>
+      <center> <h2>OS name and version</h2></center> 
+        <body><h4>
+            <script>
+                let a=prompt("Enter your os name and version maintain space between os and version");
+                let v=a;
+
+                //replaces the string with "";
+                let b=v.replace(/\D/g,"");
+
+                //replaces the numbers with '';
+                let c=v.replace(/[0-9]/g,'');
+
+                document.write("The OS name is "+c+" and version is "+b);
+               </script></h4>
+        </body>
+    </head>
+</html>

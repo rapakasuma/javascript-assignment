@@ -1,0 +1,48 @@
+<html>
+    <title>
+        OS name and version
+    </title>
+    <head>
+      <center> <h2>OS name and version</h2></center> 
+        <body><h4>
+            <script>
+                let a=prompt("Enter your os name and version maintain space between os and version");
+                let v=a;
+                let c=Number(v);
+                //using conditional statements
+                if(v>=80)
+                {
+                    console.log("Marks are "+v+" and grade is A");
+                }
+                else if(v<80 && v>=50)
+                    {
+                        console.log("Marks are "+v+" and grade is B");
+                    }
+                    else if(v<50 && v>=36)
+                        {
+                            dconsole.log("Marks are "+v+" and grade is C");
+                        }
+                        else{
+                            console.log("Marks are "+v+" and grade is F");
+                        }
+
+                //using switch cse
+
+                switch(true)
+                {
+                    case c>=80:
+                    console.log("Marks are "+v+" and grade is A");
+                        break;
+                    case c<80 && c>=50:
+                        console.log("Marks are "+v+" and grade is B");
+                        break;
+                    case c<50 &&c>=36:
+                        console.log("Marks are "+v+" and grade is C");
+                        break;
+                        default:
+                        console.log("F");
+                }
+                </script></h4>
+        </body>
+    </head>
+</html>
