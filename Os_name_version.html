@@ -9,9 +9,12 @@
                 let a=prompt("Enter your os name and version maintain space between os and version");
                 let v=a;
 
+                //The \D metacharacter is used to find a non-digit character.;
+                //g is to do global search;
                 //replaces the string with "";
                 let b=v.replace(/\D/g,"");
-
+                
+                //The [^0-9] expression is used to find any character that is NOT a digit.;
                 //replaces the numbers with '';
                 let c=v.replace(/[0-9]/g,'');
 
