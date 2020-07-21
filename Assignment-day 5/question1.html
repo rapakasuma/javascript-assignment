@@ -1,0 +1,25 @@
+<html>
+    <title>
+        Question 1
+    </title>
+    <head>
+      <center> <h2>1.</h2></center> 
+        <body><h4><script>
+            let b,a;
+                do{
+                     b=prompt("enter a number greater than 0 or enter positive number");
+                } while(b<=0);
+                var array=new Array();
+                console.log("your number is "+b);
+                     for(let i=0;i<b;i++){
+                         array[i]=i;
+                        }
+                        console.log("the array till number is : "+array);
+                        let odd=array.filter(s=>s%2!=0);
+                        console.log("the odd numbers are : "+odd);
+                        let cube=array.filter(s=>s%2!=0).map(s=>s**2);
+                        console.log("the cudes of odd numbers are : "+cube);
+        </script></h4>
+        </body>
+    </head>
+</html>
